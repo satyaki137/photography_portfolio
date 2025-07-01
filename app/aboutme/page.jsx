@@ -40,7 +40,7 @@ export default function AboutMe() {
 
       {/* Footer Outside the Section */}
       <div className="bg-[#fef3c7] text-[#1f2937] py-4 text-sm text-center">
-        © Dipta Pal 2025. Website designed and built by MUZAFFAR & SATYAKI.
+        © Dipta Pal 2025.
       </div>
     </div>
   );
