@@ -13,9 +13,9 @@ const Navbar = () => {
 
   const menuItems = [
     { name: 'Home', path: '/' },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Videos', path: '/videos' },
-    { name: 'Testimonials', path: '/testimonials' },
+    { name: 'Gallery', path: '/gallery' },
+    { name: 'Album', path: '/album' },
+    { name: 'About Me', path: '/aboutme' },
     // Remove path for "Contact Us" so it doesn't route
     { name: 'Contact Us', path: null },
   ];
@@ -34,7 +34,7 @@ const Navbar = () => {
       <nav className="bg-[#e8d3ae] top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image src={logo} alt="Logo" width={60} height={50} />
+            <Image src={logo} alt="Logo" width={200} height={100} />
           </Link>
 
           {/* Desktop Menu */}
