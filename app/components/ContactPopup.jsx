@@ -16,7 +16,7 @@
 //         {/* Heading */}
 //         <h2 className="text-4xl font-bold text-center mb-1">Let's get together</h2>
 //         <p className="text-center text-sm underline mb-4">
-//           <a href="mailto:knottymomentsofficial@gmail.com">knottymomentsofficial@gmail.com</a> | <a href="tel:+918621821822">+91-8621821822</a>
+//           <a href="mailto:tokensofmemory@gmail.com">tokensofmemory@gmail.com</a> | <a href="tel:+918621821822">+91-8621821822</a>
 //         </p>
 
 //         {/* Form */}
@@ -100,7 +100,7 @@ export default function ContactPopup({ isOpen, onClose }) {
     `;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappURL = `https://wa.me/918906122720?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/917407992788?text=${encodedMessage}`;
 
     window.open(whatsappURL, '_blank');
   };
@@ -118,8 +118,8 @@ export default function ContactPopup({ isOpen, onClose }) {
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-1">Let's get together</h2>
         <p className="text-center text-sm underline mb-4">
-          <a href="mailto:knottymomentsofficial@gmail.com">knottymomentsofficial@gmail.com</a> |{' '}
-          <a href="tel:+918906122720">+91-8906122720</a>
+          <a href="mailto:tokensofmemory@gmail.com">tokensofmemory@gmail.com</a> |{' '}
+          <a href="tel:+917407992788">+917407992788</a>
         </p>
 
         {/* Form */}
@@ -210,8 +210,8 @@ export default function ContactPopup({ isOpen, onClose }) {
 
         {/* Footer icons */}
         <div className="text-center mt-6 text-xl space-x-4">
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/dipevent/"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/tokens_of_memory_by_dipta_pal"><i className="fab fa-instagram"></i></a>
           <a href="#"><i className="fab fa-youtube"></i></a>
         </div>
       </div>
