@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import prewedding from '../assets/images/Prewedding1.jpg';
 import wedding from '../assets/images/Wedding1.jpg';
-import babyshoot from '../assets/images/babyshoot.jpg';
+import babyshoot from '../assets/images/babyshoot2.jpg';
 import others from '../assets/images/Others.jpg';
 
 import Overlay from '../components/Overlay';
@@ -124,7 +124,7 @@ function GalleryPageInner() {
       ))}
 
       <div className="bg-[#fef3c7] text-[#1f2937] py-4 text-sm text-center">
-        © Dipta Pal 2025. Website designed and built by MUZAFFAR & SATYAKI.
+        © Dipta Pal 2025.
       </div>
     </div>
   );

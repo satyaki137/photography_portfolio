@@ -320,6 +320,29 @@ export default function Overlay({ shoot, type }) {
           },
         ],
       },
+
+      video: {
+        bannerImageUrl:
+          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+        blocks: [
+          {
+            name: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
+            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+          },
+          {
+            name: 'Video 2',
+            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
+            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+          },
+          {
+            name: 'Video 3',
+            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
+            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
+          },
+        ],
+      },
+
     },
     wedding: {
       image: {
@@ -343,26 +366,68 @@ export default function Overlay({ shoot, type }) {
           },
         ],
       },
+      video: {
+        bannerImageUrl:
+          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+        blocks: [
+          {
+            name: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
+            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+          },
+          {
+            name: 'Video 2',
+            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
+            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+          },
+          {
+            name: 'Video 3',
+            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
+            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
+          },
+        ],
+      },
     },
     babyshoot: {
       image: {
         bannerImageUrl:
-          'https://drive.diptapal.workers.dev/download.aspx?file=9qye7pDSME773DOjN2h%2FvQuwvpq3MUQO8U9SYkd7%2BOtZZ1pRTinaCkMffAd4dMRv&expiry=leV9qn%2FEGoIho%2FtFWGd%2FTg%3D%3D&mac=6b2354223e72affd19187ed3bc08dccb4fccb673dc8fd85397c8b63712d9bf63',
+          'https://drive.diptapal.workers.dev/download.aspx?file=woRezg2%2FOCfvPOWrtMVMBngC1f%2F8F0lv1jgyQGc52p34xfKiaTqoLZrnV708gXNu&expiry=tVGfzQsB3YFFvPTuubwxRw%3D%3D&mac=a9a56e1d0857a1bb8edf30d238fc20a2b0df2368fa11490a4b73d960139fc68a',
         blocks: [
           {
             name: '',
             imageUrl:
-              'https://drive.diptapal.workers.dev/download.aspx?file=CTXsr7sAIFvUNjQ1mDfl1lSKfYq6fO%2FEdhMqrWPZ0tMTKaiZZcs0QSvpXp1Vl7pg&expiry=GdQovKNIOGMUKKzYKt6U4Q%3D%3D&mac=f0912983cecf6c8c1e48deafa6705cdea08e0e673171232433228eff048474f5',
+              'https://drive.diptapal.workers.dev/download.aspx?file=PvjAE3Di00sUsMRPdiNSfDrXmezPr%2BiUIE2ElGMvlqMP%2Fl0K%2BE8S7I0ReH8OBrM2&expiry=fKmTWw4Z71MRGqiWD%2B8%2B8Q%3D%3D&mac=3a79afbe0f5865f23d540667c71c156be8e2e15feaa1322f9b7a8f6dd6093d00',
           },
           {
             name: '',
             imageUrl:
-              'https://drive.diptapal.workers.dev/download.aspx?file=6oAx7I2Z1d%2BE8J8t9dUdysC%2BjUzTd6Ksiu5nBiYgX2%2FFKwQdL8IQXP7AfjvIogp%2F&expiry=czI4FT%2BlwJTPY3rg3Ls61w%3D%3D&mac=0df15032c7a80ae0204170627509dfb52cff2863a1a3254c606fb775826ba095',
+              'https://drive.diptapal.workers.dev/download.aspx?file=mYU81SPsyMpG6ltZLaZwM4hiPNJxtzgYI4ks78YMSaqPUp%2B899Qu3cB5Zl9rVCJ9&expiry=dOQY49ZSJ0AqO6asI2h4kw%3D%3D&mac=3182c72005ff4601cec0c046b978235713052a0fd2350685da0a0ee77116d990',
           },
           {
             name: '',
             imageUrl:
-              'https://drive.diptapal.workers.dev/download.aspx?file=hQprD%2Fe2Bf8vTVww0NfBzR0c5NZpruauSah8Js1ZVCL3Zlp53GP0D40B62piTB8B&expiry=dBq8Uv7EU7Johm75ncbw%2BQ%3D%3D&mac=2222ea324d0feb63490ab843d5ec35fd8b4c78b726127b438cbe32157cd60999',
+              'https://drive.diptapal.workers.dev/download.aspx?file=%2FzwNg1PEH7egONyeazdCn4dp2GR2kqiOJAg5928ETIRjtD1pQH5UlqlyX0eZ8TyY&expiry=DVI54%2F06%2Fq14cTT2bis%2Fxg%3D%3D&mac=dd022de29747dc0919c8fbb2aace3a943a2944a99005677677ba5b3af4bc9f65',
+          },
+        ],
+      },
+      video: {
+        bannerImageUrl:
+          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+        blocks: [
+          {
+            name: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
+            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+          },
+          {
+            name: 'Video 2',
+            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
+            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+          },
+          {
+            name: 'Video 3',
+            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
+            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
           },
         ],
       },
@@ -386,6 +451,27 @@ export default function Overlay({ shoot, type }) {
             name: '',
             imageUrl:
               'https://drive.diptapal.workers.dev/download.aspx?file=dqNlpwRwcyVAMoEWj1CYQFbKeZnzMXfUqYswYjHYJnjSfOEGGqSTpPP3g0yT2%2FhH&expiry=ysAcJHg4fuu11jqqjA6bUQ%3D%3D&mac=1227ec9e0c9af55e20bf06723086b895f3669bfbcd6bd2b35b4df8ebb1e6f437',
+          },
+        ],
+      },
+      video: {
+        bannerImageUrl:
+          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+        blocks: [
+          {
+            name: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
+            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+          },
+          {
+            name: 'Video 2',
+            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
+            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+          },
+          {
+            name: 'Video 3',
+            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
+            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
           },
         ],
       },
@@ -440,7 +526,6 @@ export default function Overlay({ shoot, type }) {
             alt="Banner"
             className="w-full h-full object-cover"
           />
-          {/* Close Button */}
           <button
             onClick={handleClose}
             className="absolute top-5 right-5 text-white text-4xl hover:rotate-180 transition-transform duration-500"
@@ -460,7 +545,10 @@ export default function Overlay({ shoot, type }) {
               activeIndex === i ? `z-30` : ''
             }`}
             style={{
-              backgroundImage: `url(${block.imageUrl})`,
+              backgroundImage:
+                type === 'video'
+                  ? `url(${block.thumbnailUrl})`
+                  : `url(${block.imageUrl})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               transform:
@@ -491,7 +579,7 @@ export default function Overlay({ shoot, type }) {
         ))}
       </ul>
 
-      {/* Overlay with image */}
+      {/* Overlay */}
       {activeIndex !== null && (
         <div className="fixed inset-0 bg-white flex flex-col items-center justify-center text-center p-10 z-40 transition-all duration-300">
           <button
@@ -504,15 +592,25 @@ export default function Overlay({ shoot, type }) {
             {blocks[activeIndex].name}
           </h2>
           <div className="w-full max-w-xl">
-            <img
-              src={blocks[activeIndex].imageUrl}
-              alt={blocks[activeIndex].name}
-              className="w-full h-auto object-cover rounded shadow-lg"
-            />
+            {type === "video" ? (
+              <iframe
+                width="100%"
+                height="400"
+                src={`${blocks[activeIndex].videoUrl}?controls=0&showinfo=0&rel=0&modestbranding=1`}
+                frameBorder="0"
+                allowFullScreen
+                className="rounded shadow-lg"
+              ></iframe>
+            ) : (
+              <img
+                src={blocks[activeIndex].imageUrl}
+                alt={blocks[activeIndex].name}
+                className="w-full h-auto object-cover rounded shadow-lg"
+              />
+            )}
           </div>
         </div>
       )}
     </div>
   );
 }
-

@@ -5,8 +5,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 export const metadata = {
-  title: 'Knotty Moments',
-  description: 'Wedding Moments Portfolio',
+  title: 'Tokens Of Memory',
+  description: 'Dipta Pal',
 };
 
 export default function RootLayout({ children }) {
