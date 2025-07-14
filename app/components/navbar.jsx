@@ -1,22 +1,24 @@
 'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import logo from '../assets/images/logo.png';
 import { usePathname } from 'next/navigation';
+import gsap from 'gsap';
 import ContactPopup from '../components/ContactPopup';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showContactPopup, setShowContactPopup] = useState(false);
   const pathname = usePathname();
+  const menuRef = useRef(null);
 
   const menuItems = [
     { name: 'Home', path: '/' },
     { name: 'Gallery', path: '/gallery' },
     { name: 'Album', path: '/album' },
     { name: 'About Me', path: '/aboutme' },
-    // Remove path for "Contact Us" so it doesn't route
     { name: 'Contact Us', path: null },
   ];
 
@@ -28,6 +30,28 @@ const Navbar = () => {
     }
     setMenuOpen(false);
   };
+
+  useEffect(() => {
+    if (menuRef.current) {
+      if (menuOpen) {
+        gsap.to(menuRef.current, {
+          height: 'auto',
+          opacity: 1,
+          duration: 0.5,
+          ease: 'power2.out',
+          pointerEvents: 'auto',
+        });
+      } else {
+        gsap.to(menuRef.current, {
+          height: 0,
+          opacity: 0,
+          duration: 0.5,
+          ease: 'power2.in',
+          pointerEvents: 'none',
+        });
+      }
+    }
+  }, [menuOpen]);
 
   return (
     <>
@@ -53,7 +77,10 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+          <button
+            className="md:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
             <svg
               className="w-6 h-6"
               fill="none"
@@ -64,15 +91,22 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d={!menuOpen ? 'M4 6h16M4 12h16M4 18h16' : 'M6 18L18 6M6 6l12 12'}
+                d={
+                  !menuOpen
+                    ? 'M4 6h16M4 12h16M4 18h16'
+                    : 'M6 18L18 6M6 6l12 12'
+                }
               />
             </svg>
           </button>
         </div>
 
         {/* Mobile Menu Links */}
-        {menuOpen && (
-          <div className="md:hidden px-4 pb-4 space-y-2 bg-[#e8d3ae]">
+        <div
+          ref={menuRef}
+          className="md:hidden overflow-hidden h-0 opacity-0"
+        >
+          <div className="px-4 pb-4 space-y-2 bg-[#e8d3ae]">
             {menuItems.map((item) => (
               <button
                 key={item.name}
@@ -85,12 +119,15 @@ const Navbar = () => {
               </button>
             ))}
           </div>
-        )}
+        </div>
       </nav>
 
       {/* Contact Us Popup */}
       {showContactPopup && (
-        <ContactPopup isOpen={showContactPopup} onClose={() => setShowContactPopup(false)} />
+        <ContactPopup
+          isOpen={showContactPopup}
+          onClose={() => setShowContactPopup(false)}
+        />
       )}
     </>
   );

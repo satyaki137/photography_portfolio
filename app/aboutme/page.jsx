@@ -6,6 +6,7 @@ import aboutmeImage from '../assets/images/aboutme.jpg';
 export default function AboutMe() {
   return (
     <div>
+      
       {/* Hero Section */}
       <div className="relative w-full h-screen">
         {/* Background image */}

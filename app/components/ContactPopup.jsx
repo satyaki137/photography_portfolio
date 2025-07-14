@@ -210,9 +210,9 @@ export default function ContactPopup({ isOpen, onClose }) {
 
         {/* Footer icons */}
         <div className="text-center mt-6 text-xl space-x-4">
-          <a href="https://www.facebook.com/dipevent/"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.facebook.com/dipevent"><i className="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/tokens_of_memory_by_dipta_pal"><i className="fab fa-instagram"></i></a>
-          <a href="#"><i className="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/@TokensofMemory"><i className="fab fa-youtube"></i></a>
         </div>
       </div>
     </div>
