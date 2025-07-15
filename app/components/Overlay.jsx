@@ -323,22 +323,22 @@ export default function Overlay({ shoot, type }) {
 
       video: {
         bannerImageUrl:
-          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+          'https://img.youtube.com/vi/AOEQIoARxPY/maxresdefault.jpg',
         blocks: [
           {
             name: 'Video 1',
-            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
-            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/AOEQIoARxPY' ,
+            thumbnailUrl: 'https://img.youtube.com/vi/AOEQIoARxPY/maxresdefault.jpg',
           },
           {
             name: 'Video 2',
-            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
-            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/tlHalU4TC8A',
+            thumbnailUrl: 'https://img.youtube.com/vi/tlHalU4TC8A/maxresdefault.jpg',
           },
           {
             name: 'Video 3',
-            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
-            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/QaGmoHHpiqk',
+            thumbnailUrl: 'https://img.youtube.com/vi/QaGmoHHpiqk/maxresdefault.jpg',
           },
         ],
       },
@@ -368,22 +368,22 @@ export default function Overlay({ shoot, type }) {
       },
       video: {
         bannerImageUrl:
-          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+          'https://img.youtube.com/vi/H2hDjBa9sWg/maxresdefault.jpg',
         blocks: [
           {
             name: 'Video 1',
-            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
-            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/H2hDjBa9sWg',
+            thumbnailUrl: 'https://img.youtube.com/vi/H2hDjBa9sWg/maxresdefault.jpg',
           },
           {
             name: 'Video 2',
-            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
-            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/3XC5NYBV-zM',
+            thumbnailUrl: 'https://img.youtube.com/vi/3XC5NYBV-zM/maxresdefault.jpg',
           },
           {
             name: 'Video 3',
-            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
-            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/3gDeheqjlmM',
+            thumbnailUrl: 'https://img.youtube.com/vi/3gDeheqjlmM/maxresdefault.jpg',
           },
         ],
       },
@@ -412,22 +412,22 @@ export default function Overlay({ shoot, type }) {
       },
       video: {
         bannerImageUrl:
-          'https://img.youtube.com/vi/yz-Wfs7M3YM/maxresdefault.jpg',
+          'https://img.youtube.com/vi/KvxlN_djY8A/maxresdefault.jpg',
         blocks: [
           {
             name: 'Video 1',
-            videoUrl: 'https://www.youtube.com/embed/XUl-cJ7jiXE',
-            thumbnailUrl: 'https://img.youtube.com/vi/XUl-cJ7jiXE/maxresdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/KvxlN_djY8A',
+            thumbnailUrl: 'https://img.youtube.com/vi/KvxlN_djY8A/maxresdefault.jpg',
           },
           {
             name: 'Video 2',
-            videoUrl: 'https://www.youtube.com/embed/yz-Wfs7M3YM',
-            thumbnailUrl: 'https://img.youtube.com/vi/yz-Wfs7M3YM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/XwICX0p3QOk',
+            thumbnailUrl: 'https://img.youtube.com/vi/XwICX0p3QOk/maxresdefault.jpg',
           },
           {
             name: 'Video 3',
-            videoUrl: 'https://www.youtube.com/embed/JpnQDTVzaAM',
-            thumbnailUrl: 'https://img.youtube.com/vi/JpnQDTVzaAM/hqdefault.jpg',
+            videoUrl: 'https://www.youtube.com/embed/MLQTbUufepE',
+            thumbnailUrl: 'https://img.youtube.com/vi/MLQTbUufepE/hqdefault.jpg',
           },
         ],
       },
